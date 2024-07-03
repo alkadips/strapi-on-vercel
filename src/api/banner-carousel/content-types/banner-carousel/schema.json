@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "banner_carousels",
+  "info": {
+    "singularName": "banner-carousel",
+    "pluralName": "banner-carousels",
+    "displayName": "Banner carousel",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "BannerUrl": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

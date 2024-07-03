@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "banner2s",
+  "info": {
+    "singularName": "banner2",
+    "pluralName": "banner2s",
+    "displayName": "Banner2"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "BannerUrl": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
